@@ -10,4 +10,8 @@ models:
         description: '{{ doc("payment_methods") }}'
         tests:
           - accepted_values:
-            values: ["credit_card", "bank_transfer", "coupon", "gift_card"]
+              values: 
+                - credit_card
+                - bank_transfer
+                - coupon
+                - gift_card
